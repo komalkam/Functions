@@ -6,6 +6,3 @@ result = list(map(triple, numbers))
 
 print("Triple of list numbers:")
 print(result)
-
-print("Triple of list numbers:")
-print(result)
