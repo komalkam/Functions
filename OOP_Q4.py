@@ -39,3 +39,7 @@ if __name__ == "__main__":
 
     account2.deposit(1000)
     account2.withdraw(1500)
+
+
+
+https://github.com/komalkam/Functions/blob/main/OOP_Q5.py
