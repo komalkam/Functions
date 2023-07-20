@@ -1,0 +1,40 @@
+{
+    "employees": [
+      {
+        "Name": "Komal kamble",
+        "DOB": "1990-05-15",
+        "Height": 175,
+        "City": "New York",
+        "State": "NY"
+      },
+      {
+        "Name": "Mohit kushwaha",
+        "DOB": "1985-12-25",
+        "Height": 162,
+        "City": "Los Angeles",
+        "State": "CA"
+      },
+      {
+        "Name": "Ankur tripathi",
+        "DOB": "1988-08-10",
+        "Height": 180,
+        "City": "Chicago",
+        "State": "IL"
+      },
+      {
+        "Name": "Rohan pande",
+        "DOB": "1992-04-02",
+        "Height": 168,
+        "City": "Houston",
+        "State": "TX"
+      },
+      {
+        "Name": "David Lee",
+        "DOB": "1995-11-30",
+        "Height": 185,
+        "City": "San Francisco",
+        "State": "CA"
+      }
+    ]
+  }
+  
