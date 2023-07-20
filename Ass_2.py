@@ -19,7 +19,7 @@ class JackRussellTerrier(Dog):
     def special_skill_info(self):
         print(f"{self.name} has a special skill: {self.special_skill}")
 
-    def description(self):  # Overriding the description method from the parent class
+    def description(self):  
         print(f"Jack Russell Terrier: Name: {self.name}, Age: {self.age}")
 
 
@@ -33,29 +33,27 @@ class Bulldog(Dog):
 
 
 if __name__ == "__main__":
-    # Create objects of the Dog class
+   
     dog1 = Dog("Buddy", 4, "Golden")
     dog2 = Dog("Max", 2, "Black")
 
-    # Perform the operations on the Dog class objects
-    dog1.description()  # Output: Name: Buddy, Age: 4
-    dog1.get_info()     # Output: Coat Color: Golden
+    dog1.description()  
+    dog1.get_info()     
 
-    dog2.description()  # Output: Name: Max, Age: 2
-    dog2.get_info()     # Output: Coat Color: Black
+    dog2.description()  
+    dog2.get_info()     
 
-    # Create objects of the JackRussellTerrier class
+  
     jack_russell = JackRussellTerrier("Rocky", 3, "White and Brown", "Digging")
 
-    # Perform the operations on the JackRussellTerrier class object
-    jack_russell.description()       # Output: Jack Russell Terrier: Name: Rocky, Age: 3
-    jack_russell.get_info()          # Output: Coat Color: White and Brown
-    jack_russell.special_skill_info()  # Output: Rocky has a special skill: Digging
+   
+    jack_russell.description()       
+    jack_russell.get_info()         
+    jack_russell.special_skill_info() 
 
-    # Create objects of the Bulldog class
+   
     bulldog = Bulldog("Spike", 5, "Brown", "High")
 
-    # Perform the operations on the Bulldog class object
-    bulldog.description()     # Output: Name: Spike, Age: 5
-    bulldog.get_info()        # Output: Coat Color: Brown
-    bulldog.strength_info()   # Output: Spike is a Bulldog with a strength level of High
+    bulldog.description()     
+    bulldog.get_info()        
+    bulldog.strength_info()   
