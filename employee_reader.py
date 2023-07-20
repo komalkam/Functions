@@ -27,7 +27,7 @@ if __name__ == "__main__":
     employees_data_file = "employee.json"
     employees_list = read_employees_from_json(employees_data_file)
 
-    # Print the list of Employee objects
+   
     for employee in employees_list:
         print(f"Name: {employee.name}")
         print(f"DOB: {employee.dob}")
