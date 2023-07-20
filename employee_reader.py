@@ -35,3 +35,15 @@ if __name__ == "__main__":
         print(f"City: {employee.city}")
         print(f"State: {employee.state}")
         print()
+
+indian_states_capitals = {
+    "Andhra Pradesh": "Amaravati",
+    "Maharashtra": "Mumbai",
+    "Karnataka": "Bengaluru",
+    "Tamil Nadu": "Chennai",
+    "Uttar Pradesh": "Lucknow",
+    "Gujarat": "Gandhinagar",
+    "Rajasthan": "Jaipur"
+}
+with open("indian_states_capitals.json", "w") as json_file:
+    json.dump(indian_states_capitals, json_file)
